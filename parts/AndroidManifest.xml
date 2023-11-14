@@ -31,9 +31,8 @@
 
     <application
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/device_settings_app_name"
-        android:persistent="true"
-        android:theme="@style/Theme.SubSettingsBase">
+        android:label="Xiaomi Parts"
+        android:persistent="true">
 
         <receiver android:name=".BootCompletedReceiver">
             <intent-filter>
