@@ -135,10 +135,6 @@ PRODUCT_PACKAGES += \
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
